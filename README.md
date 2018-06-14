@@ -25,7 +25,7 @@ add new file main.js, index.html
 do:  
 ```  
 npm install  
-npm install --save-dev electron  
+npm install --save-dev electron (可能会自动生成package-lock.json文件和node_modules目录？)  
 npm install -g electron-packager  
 ```  
 ## Run  
