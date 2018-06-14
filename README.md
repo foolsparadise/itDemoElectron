@@ -1,9 +1,10 @@
 ## ElectronDemo  
+此Demo是如何创造一个，工程源码已附上，以下为完成工程源码的步骤：  
 ## Howto  
 do:  
 ```  
-npm init  
-(do sth)  
+（创建一个目录，在此目录下）npm init  
+(会有一些提示，do sth)  
 ```  
 modify package.json file as like this:  
 ```  
