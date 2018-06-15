@@ -27,7 +27,7 @@ do:
 ```  
 npm install  
 npm install --save-dev electron (我不知道npm install electron是不是和这条命令同样功能，另，执行可能会自动生成package-lock.json文件和node_modules目录？)  
-npm install -g electron-packager  
+npm install -g electron-packager (安装打包的，package.json文件会添加一项devDependencies)  
 ```  
 ## Run  
 ```  
