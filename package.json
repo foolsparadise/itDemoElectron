@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "packager": "electron-packager . electrondemo --arm64 --out ./Release --arch=x64 ---app-version=1.0.0 --electron-version=2.0.2"
+    "packager": "electron-packager . electrondemo --arm64 --out ./Release --arch=x64 ---app-version=1.0.0 --electron-version=2.0.2",
+    "packageDarwin": "electron-packager . 'electrondemo' --platform=darwin --arch=x64 --icon=electrondemo.icns --out=./Release --asar --app-version=1.0.0 --ignore=\"(dist|Release|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\"",
+    "packageDarwin": "electron-packager . 'electrondemo' --platform=darwin --arch=x64 --icon=electrondemo.icns --out=./Release --asar --app-version=1.0.0",
+    "packageWin": "electron-packager . 'electrondemo' --platform=win32 --arch=x64 --icon=electrondemo.ico --out=./Release --asar --app-version=1.0.0 --ignore=\"(dist|Release|src|docs|.gitignore|LICENSE|README.md|webpack.config.js|node_modules)\"",
+    "packageWin": "electron-packager . 'electrondemo' --platform=win32 --arch=x64 --icon=electrondemo.ico --out=./Release --asar --app-version=1.0.0",
+    "packageLinux": "electron-packager . 'electrondemo' --platform=linux --arch=x64 --out=./Release --asar --app-version=1.0.0 --ignore=\"(dist|Release|src|docs|.gitignore|LICENSE|README.md|webpack.config.js|node_modules)\"",
+    "packageLinux": "electron-packager . 'electrondemo' --platform=linux --arch=x64 --out=./Release --asar --app-version=1.0.0"
   },
   "author": "",
   "license": "MIT",
