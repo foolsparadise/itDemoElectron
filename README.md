@@ -30,6 +30,10 @@ npm install --save-dev electron (我不知道npm install electron是不是和这
 npm install -g electron-packager  
 ```  
 ## Run  
-```npm start```  
+```  
+npm start  
+```  
 ## Release  
-```npm run-script packager```
+```  
+npm run-script packager  
+```  
