@@ -1,5 +1,7 @@
 ## ElectronDemo  
-此Demo是如何创造一个，工程源码已附上，以下为完成工程源码的步骤：  
+此Demo是如何创造一个，自写的Demo举例，工程源码已附有   
+.icns图片来自于https://www.easyicon.net/iconsearch/%E7%86%8A%E7%8C%AB/ 如果侵权即删    
+以下为完成工程源码的步骤：  
 ## Howto  
 do:  
 ```  
