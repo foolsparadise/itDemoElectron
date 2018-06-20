@@ -68,3 +68,4 @@ npm start
 (Windows system，如果是Mac系统编译则需要先安装wine)npm run-script packageWin  
 (Linux system)npm run-script packageLinux  
 ```  
+## MIT  
